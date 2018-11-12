@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+       <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Safer In Water</title>
+        <meta name="SAFER IN WATER">
+        <link rel="stylesheet" href="institucional.css">
+        <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
+    </head>
+    <body>
+        <div id="sidenavbar"><a id="pais">PAIS</a><a id="educadores">EDUCADORES</a><a id="institucional">INSTITUCIONAL</a></div>
+       <div id="main"> 
+        
+    
+        <div id="barra"><img id="logo" src="siw.png">
+            <div id="siw">SAFER IN WATER</div>  
+            
+            
+                <div class="dropdown">
+                    
+                    
+                    
+                    
+        <!--            <button onclick="myFunction()" class="dropbtn">Dropdown</button>   -->
+                    
+                    
+                    <div class="container" onclick="myFunction(); functiontwo(x)">
+                          <div class="bar1"></div>
+                          <div class="bar2"></div>
+                          <div class="bar3"></div>
+                    </div>
+                    
+                    
+                    
+                    
+                      <div id="myDropdown" class="dropdown-content">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#contact">Contact</a>
+                      </div>
+                </div>
+                
+        </div>
+          
+        
+            
+        <div id="hero">
+                <div id="tituloinstitucional">INSTITUCIONAL</div>
+            
+            <div id="descricaoinstitucional">Uma escola de natação que vai de encontro às expectativas dos pais é uma escola bem-sucedida.</div>
+            
+            <div id="why">
+                <div id="whytitulo">Porquê implementar um programa de prevenção e segurança na sua escola?</div>
+                <div id="why01">+ Segurança para os pais confiarem os seus filhos à sua escola;</div>
+                <div id="why02">+ Motivos para a sua escola ser a escolhida;</div>
+                <div id="why03"></div>
+            </div>
+            
+            
+        </div>
+            
+        </div>
+        
+        
+        <script src="bower_components/aos/dist/aos.js"></script>
+        <script>AOS.init();</script>
+        <script>
+                    /* When the user clicks on the button, 
+                    toggle between hiding and showing the dropdown content */
+                    function myFunction() {
+                        document.getElementById("myDropdown").classList.toggle("show");
+                    }
+
+                    // Close the dropdown if the user clicks outside of it
+                    window.onclick = function(event) {
+                      if (!event.target.matches('.container')) {
+
+                        var dropdowns = document.getElementsByClassName("dropdown-content");
+                        var i;
+                        for (i = 0; i < dropdowns.length; i++) {
+                          var openDropdown = dropdowns[i];
+                          if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                          }
+                        }
+                      }
+                    }
+                    </script>
+        
+                <script>
+                function functiontwo(x) {
+                    x.classList.toggle("change");
+                }
+                </script>
+
+        
+    
+
+        
+    </body>
+    
+</html>
