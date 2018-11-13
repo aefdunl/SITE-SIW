@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+       <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Safer In Water ®</title>
+        <meta name="SAFER IN WATER®">
+        <link rel="stylesheet" href="blog.css">
+        <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
+         <link rel="icon" type="image/png" href="siw.png">
+    </head>
+    <body>
+        
+        
+        
+    
+        <div id="barra"><img id="logo" src="siw.png">
+            <div id="siw">SAFER IN WATER ®</div>  
+            
+            
+                <div class="dropdown">
+                    
+                    
+                    
+                    
+        <!--            <button onclick="myFunction()" class="dropbtn">Dropdown</button>   -->
+                    
+                    
+                    <div class="container" onclick="myFunction(); functiontwo(x)">
+                          <div class="bar1"></div>
+                          <div class="bar2"></div>
+                          <div class="bar3"></div>
+                    </div>
+                    
+                    
+                    
+                    
+                      <div id="myDropdown" class="dropdown-content">
+                        <a href="index.html">HOME</a>
+                        <p>PROGRAMAS</p>
+                        <a href="#pais">+ PAIS</a>
+                          <a href="#educadores">+ EDUCADORES</a>
+                          <a href="#institucional">+ INSTITUCIONAL</a>
+                        <p>CURSOS INTENSIVOS</p>
+                          <a href="oquesao.html">+ O QUE SÃO?</a>
+                          <a href="#calendario">+ CALENDÁRIO</a>
+                          <a href="#sobrenos">SOBRE NÓS</a>
+                          <a href="galeria.html">GALERIA</a>
+                          <a href="blog.html">BLOG</a>
+                          <a href="#loja">LOJA</a>
+                          <a href="#contactos">CONTACTOS</a>
+                      </div>
+                </div>
+                
+        </div>
+          
+        <div id="main">
+<div class="grid-container">
+    <div class="box"><img id="imagem" src="post1.png"><a class="divLink" href="#">#</a><div id="data">24 junho, 2018</div><div id="titulo">BENIFÍCIOS DO GATINHAR EM BEBÉS</div></div>
+  <div class="box"><img id="imagem" src="post2.jpg"><a class="divLink" href="#">#</a><div id="data">27 novembro, 2017</div><div id="titulo">A VIDA DO SEU FILHO NÃO PODE ESPERAR!</div></div>
+  <div class="box"><img id="imagem" src="post3.png"><a class="divLink" href="#">#</a><div id="data">14 novembro, 2017</div><div id="titulo">TRABALHO DE PREVENÇÃO E SEGURANÇA AQUÁTICA NO SAFER IN WATER®</div></div>  
+  <div class="box"><img id="imagem" src="post4.png"><a class="divLink" href="#">#</a><div id="data">02 novembro, 2017</div><div id="titulo">HABILIDADES DE SOBREVIVÊNCIA AQUÁTICA DEVEM SER ENSINADAS EM TODAS A AULAS DE NATAÇÃO</div></div>
+</div>
+        <div id="sobre">         
+<img id="imagem" src="liliana.jpg">
+            <p1>FORMAÇÃO ACADÉMICA</p1><br><br>
+<p2>Licenciada em educação física<br>
+Mestre em ciências do desporto<br>
+Doutorada em ciências do desporto<br>
+PROF. ESPECIALIZADA EM PREVENÇÃO E SEGURANÇA NO MEIO AQUÁTICO<br>
+EDUCADORA MASTER SAFER IN WATER®<br>
+PROF. DE NATAÇÃO INFANTIL E NATAÇÃO BEBÉS DESDE 1998</p2></div></div>
+              <div id="footer">
+                <div id="footercontentor">
+                <div id="copyright">© 2018 Safer In Water</div>
+                <div id="parceiros"><p id="parceirostext">Parceiros:</p><img id="logo1" src="env.jpg"><img id="logo2" src="hoteldeguimaraes.png"></div>
+                </div>
+            </div>
+
+             <script src="bower_components/aos/dist/aos.js"></script>
+        <script>AOS.init();</script>
+        <script>
+                    /* When the user clicks on the button, 
+                    toggle between hiding and showing the dropdown content */
+                    function myFunction() {
+                        document.getElementById("myDropdown").classList.toggle("show");
+                    }
+
+                    // Close the dropdown if the user clicks outside of it
+                    window.onclick = function(event) {
+                      if (!event.target.matches('.container')) {
+
+                        var dropdowns = document.getElementsByClassName("dropdown-content");
+                        var i;
+                        for (i = 0; i < dropdowns.length; i++) {
+                          var openDropdown = dropdowns[i];
+                          if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                          }
+                        }
+                      }
+                    }
+                    </script>
+   
+    </body>
+    
+</html>
